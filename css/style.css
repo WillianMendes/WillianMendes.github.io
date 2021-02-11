@@ -31,6 +31,106 @@ main {
     background-color: var(--main-bg-color);
 }
 
+.content .section .section-header {
+    display: flex;
+}
+
+.content .line-title.line-header {
+    margin-left: 0;
+}
+
+.content .line-title {
+    width: 100%;
+    margin-left: 16px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.content .line-title .line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--text-black-color);
+}
+
+.content .line-title.line-header .line-detail {
+    width: 600px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: var(--side-bg-color);
+}
+
+.content .line-title .line-detail {
+    width: 150px;
+    height: 9px;
+    border-radius: 4px;
+    background-color: var(--side-bg-color);
+}
+
+.content .icon-circle-box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--side-bg-color);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .icon-circle-box i {
+    font-size: 24px;
+    padding: 24px;
+}
+
+.content .header-box {
+    padding: 30px 0;
+}
+
+.content .header-box h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--text-black-color);
+}
+
+.content .header-box h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--side-bg-color);
+}
+
+.content .section {
+    margin-bottom: 32px;
+}
+
+.content .section h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 6px;
+    color: var(--text-black-color);
+    display: inline;
+}
+
+.content .section h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+    color: var(--text-black-color);
+}
+
+.content .section .education-date {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content .section p {
+    color: var(--side-bg-color);
+}
+
+.content .section .paragraph {
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 8px;
+}
+
 .side {
     min-height: 100vh;
     width: 220px;
