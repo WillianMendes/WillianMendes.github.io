@@ -27,6 +27,7 @@ main {
     min-width: 350px;
     width: 30vw;
     max-width: 525px;
+    padding: 16px 32px;
     background-color: var(--side-bg-color);
 }
 
@@ -40,4 +41,24 @@ main {
 
 .box-values {
     width: 70%;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    background-image: url("/public/img/eu.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
+
+h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style: none;
 }
