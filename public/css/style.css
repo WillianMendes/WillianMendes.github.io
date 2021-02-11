@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap');
+
 :root {
     --main-bg-color: #FFFFFF;
     --side-bg-color: #3E3E3E;
@@ -8,6 +10,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 main {
@@ -24,41 +27,60 @@ main {
 
 .side {
     min-height: 100vh;
-    min-width: 350px;
+    min-width: 150px;
     width: 30vw;
-    max-width: 525px;
-    padding: 16px 32px;
+    max-width: 225px;
+    padding: 32px;
     background-color: var(--side-bg-color);
 }
 
-.section-side {
+.side .section-side {
     display: flex;
 }
 
-.box-keys {
-    width: 30%;
+.side .box-keys {
+    width: 45%;
 }
 
-.box-values {
-    width: 70%;
+.side .box-values {
+    width: 55%;
 }
 
-.profile-image {
-    width: 150px;
-    height: 150px;
+.side .profile-image {
+    width: 175px;
+    height: 175px;
     background-image: url("/public/img/eu.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(100%);
     border-radius: 50%;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.3);
 }
 
-h3 {
+.side h3 {
+    color: var(--text-white-color);
     margin-top: 24px;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #393939;
 }
 
-ul {
+.side ul {
     list-style: none;
+}
+
+.side ul li {
+    padding: 4px 0;
+    border-bottom: 2px solid #393939;
+}
+
+.side .li-keys {
+    font-weight: 600;
+    color: var(--text-white-color);
+}
+
+.side .li-values {
+    font-weight: 300;
+    color: var(--text-white-color);
 }
