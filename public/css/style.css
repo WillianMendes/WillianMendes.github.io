@@ -8,29 +8,34 @@
 }
 
 * {
+    font-family: 'Oswald', sans-serif;
     padding: 0;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
 }
 
 main {
+    width: 920px;
+    margin: 32px auto;
+    border-radius: 16px;
     display: flex;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
 }
 
 .content {
     min-height: 100vh;
-    min-width: 750px;
-    width: 70vw;
-    max-width: 1250px;
+    width: 700px;
+    padding: 32px;
+    border-radius: 0 16px 16px 0;
     background-color: var(--main-bg-color);
 }
 
 .side {
     min-height: 100vh;
-    min-width: 150px;
-    width: 30vw;
-    max-width: 225px;
+    width: 220px;
     padding: 32px;
+    border-radius: 16px 0 0 16px;
     background-color: var(--side-bg-color);
 }
 
@@ -44,6 +49,18 @@ main {
 
 .side .box-values {
     width: 55%;
+}
+
+.side .box-values a {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-white-color);
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .side .profile-image {
@@ -83,4 +100,38 @@ main {
 .side .li-values {
     font-weight: 300;
     color: var(--text-white-color);
+}
+
+.side .box-icons ul li {
+    border: none;
+}
+
+.side .box-icons .li-keys {
+    margin-top: 4px;
+    display: flex;
+}
+
+.side .box-icons {
+    width: 100%;
+}
+
+.side .box-icons .li-keys a {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-white-color);
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side .box-icons .li-keys a i {
+    justify-content: flex-end;
+}
+
+.side .box-icons svg {
+    fill: #FFFFFF;
+    margin-right: 16px;
 }
