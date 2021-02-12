@@ -131,6 +131,93 @@ main {
     margin-top: 8px;
 }
 
+.content .section.skills {
+
+}
+
+.content .section.skills ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.content .section.skills ul li {
+    width: 50%;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.content .section.skills ul li:nth-child(even) {
+    width: calc(50% - 16px);
+    padding-left: 16px;
+}
+
+.content .section.skills ul li span {
+    width: 30%;
+}
+
+.content .skillbar {
+    width: 70%;
+    display: flex;
+}
+
+.content .skillbar .basebar {
+    width: 100%;
+    height: 12px;
+    border: 1px solid var(--side-bg-color);
+    border-radius: 12px;
+    background-color: var(--main-bg-color);
+}
+
+.content .skillbar .fillbar {
+    width: 0;
+    height: 12px;
+    border-radius: 11px 12px 12px 11px;
+    background-color: var(--side-bg-color);
+}
+
+.fill-10 {
+    width: 10% !important;
+}
+
+.fill-20 {
+    width: 20% !important;
+}
+
+.fill-30 {
+    width: 30% !important;
+}
+
+.fill-40 {
+    width: 40% !important;
+}
+
+.fill-50 {
+    width: 50% !important;
+}
+
+.fill-60 {
+    width: 60% !important;
+}
+
+.fill-70 {
+    width: 70% !important;
+}
+
+.fill-80 {
+    width: 80% !important;
+}
+
+.fill-90 {
+    width: 90% !important;
+}
+
+.fill-100 {
+    width: 100% !important;
+}
+
 .side {
     min-height: 100vh;
     width: 220px;
